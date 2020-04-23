@@ -25,8 +25,9 @@ namespace Elevi_Class
 
         static void Main(string[] args)
         {
-            var input_path = @"C:\Users\serba\Desktop\input.txt";
-            var output_path = @"C:\Users\serba\Desktop\output.txt";
+            var input_path = @"C:\Users\Serban\Desktop\input.txt";
+            var output_path = @"C:\Users\Serban\Desktop\output.txt";
+            
             string[] lines = File.ReadAllLines(input_path);
 
             List<Elev> Elevi = new List<Elev>();
